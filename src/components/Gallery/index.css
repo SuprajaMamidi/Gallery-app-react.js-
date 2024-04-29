@@ -1,0 +1,30 @@
+/* Write your code here. */
+.heading {
+  color: #1e293b;
+}
+.para {
+  color: #64748b;
+}
+.bg-container {
+  padding: 40px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+  }
+  .image {
+    width: 50px;
+    height: 300px;
+    margin-right: 20px;
+  }
+}
+.image {
+  width: 700px;
+}
